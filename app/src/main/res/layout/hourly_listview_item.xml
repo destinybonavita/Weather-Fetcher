@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:padding="15dp"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:paddingBottom="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" android:gravity="center"
+            android:text="Hour" android:layout_span="1" android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/hourLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" android:gravity="center"
+            android:text="00" android:layout_span="1" android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:paddingBottom="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" android:gravity="center"
+            android:text="Status" android:layout_span="1" android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/statusImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/clear_day" android:layout_span="1" android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:paddingBottom="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" android:gravity="center"
+            android:text="Temperature" android:layout_span="1" android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tempLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" android:gravity="center"
+            android:text="00" android:layout_span="1" android:layout_weight="1" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:paddingBottom="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" android:gravity="center"
+            android:text="Wind Speed" android:layout_span="1" android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/windSpeedLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" android:gravity="center"
+            android:text="00" android:layout_span="1" android:layout_weight="1" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:paddingBottom="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" android:gravity="center"
+            android:text="Wind Gust" android:layout_span="1" android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/windGustLbl"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" android:gravity="center"
+            android:text="00" android:layout_span="1" android:layout_weight="1" />
+    </TableRow>
+</TableLayout>
